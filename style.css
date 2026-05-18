@@ -123,6 +123,17 @@ body {
   object-fit: contain;
 }
 
+.hero-compact {
+  padding: 80px 0 56px;
+}
+
+.hero-compact h1 {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+}
+
+.timeline-item .card-link {
+  margin-top: 14px;
+}
 .hero-buttons {
 
   display:
