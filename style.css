@@ -98,12 +98,29 @@ body {
     700px;
 }
 
+.hero-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 3rem;
+}
+
+.hero-copy {
+  flex: 1 1 auto;
+  max-width: 700px;
+  min-height: 320px;
+}
+
+.hero-art {
+  flex: 0 0 400px;
+  display: flex;
+  align-items: stretch;
+}
+
 .hero-logo {
-  display: block;
-  width: 140px;
-  max-width: 100%;
-  height: auto;
-  margin: 1rem auto 1.5rem;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .hero-buttons {
